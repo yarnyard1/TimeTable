@@ -9,7 +9,7 @@ export function useReminder(tasks) {
         if (task.isDueNow()) {
           // Play your custom sound from the public folder
           const sound = new Audio('alarm.mp3')
-          sound.volume = 0.8
+          sound.volume = 10
           sound.play()
 
           alert(`⏰ Reminder: "${task.title}" is due now!`)
