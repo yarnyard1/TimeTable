@@ -8,7 +8,7 @@ export function useReminder(tasks) {
       tasks.forEach((task) => {
         if (task.isDueNow()) {
           // Play your custom sound from the public folder
-          const sound = new Audio('alarm.mp3')
+          const sound = new Audio('public/alarm.mp3')
           sound.volume = 0.9
           sound.play()
 
