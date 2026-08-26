@@ -11,7 +11,7 @@ function Footer() {
         </span>
         <span className="text-muted small d-flex align-items-center gap-1">
           <i className="bi bi-globe2"></i>
-            Browser's language: <strong className="text-white">{browserLanguage}</strong>       
+            <h6 className="text-white" >Browser's language:</h6> <strong className="text-white">{browserLanguage}</strong>       
         </span>
       </div>
     </footer>
